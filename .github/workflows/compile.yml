@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '20.x'
       - name: Run script
-        run: node scripts/compile.js
+        run: node scripts/just_add_them.js
       - name: Upload
       - run: git add . && git commit -m '[auto] update files' && git push
         env:
